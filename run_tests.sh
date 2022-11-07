@@ -59,9 +59,10 @@ unit_test() {
 	local forbidden_functions_logs_file="$LOG_DIR/test_ft$1.forbidden_functions.log"
 	local running_logs_file="$LOG_DIR/test_ft_$1.running.log"
 	local padded_title='  %-19s: '
+	local sleep_time=1
 
 	printf "$FG_MAGENTA$BOLD"'Testing '"$1$RESET"'\n'
-
+	/bin/sleep $sleep_time
 	# Check compilation
 	printf "$padded_title" 'Compilation'
 	$CC -I $INCLUDE_DIR -o $test_file_o $test_file_c
@@ -124,7 +125,7 @@ unit_test() {
 
 # Create directories that may not exist yet
 mkdir -p $OBJ_DIR $LOG_DIR $EXECUTABLE_DIR
-
+bash pimp.sh
 # Check if some arguments have been sent
 if [ $# -ne 0 ]; then
 
