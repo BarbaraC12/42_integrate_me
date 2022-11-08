@@ -1,0 +1,23 @@
+\e[2;49;95m
+\t             ......        ......
+\t           odxxkkxdoo    odxxkkxxdo          
+\t        oxOKKK000KKK0xxkO0K000000K0Oxo       
+\t      oxKX0kd     ox0XXXKOdo     dk0X0d      
+\t     okXKx       ox0K0kxOKOdo       xKKx     
+\t     xXKd      ox0K0xo  okKXOdo      xXKd    
+\t     ONOo    ox0K0xo      okKXOd     o0Nk    
+\t     ONOo  ox0K0xo          okKX0d   dKXx    
+\t     dKKxox0K0xo              okKX0doON0d    
+\t      xKX000x                   okKXKK0d     
+\t      dOKXKko                    dOKXXOo     
+\t     dKXkdOXKko                dkKKkd0XOo    
+\t    oON0o  dOXKko            dkKKkd  dKXx    
+\t    o0Nk     dOXKko        dkKKko    o0Nk    
+\t     ONOo      dOXKko    okKKko      dKXx    
+\t     dKXko      odOXKxdxkKKko       o0XOo    
+\t      d0X0xo      dx0XXXKOd       okKXko     
+\t       ox0K0OkkkkkO0K0kxOK0OkkkkO0KKOd       
+\t          dxkO000OOxdo  oxkO0000Okxo         
+\t            ********      ********    
+\t                                       The Assembly
+\e[m 

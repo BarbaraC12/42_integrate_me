@@ -1,0 +1,24 @@
+\033[1;33m                                                  
+\t                       xxkx                       
+\t                    xO0KXXXKOkx                   
+\t                 kOKXXKOkkk0KXX0Ox                
+\t             xk0XNWWXO       kOKXXKOkx            
+\t          kOKXXK0OOKXXKOkx      xk0XXX0kx         
+\t       k0KXX0Ox     x0NWNXX0kx     xkOKXXKOx      
+\t      kXN0kx     xk0KXXK0O0KXX0Ox      xOXNKx     
+\t      ONXx    xO0XXK0kx     xOKXXKOk     ONXx     
+\t      ONXx   xKNKOx            xk0NNO    ONXx    
+\t      ONXx   kXNO                 0N0    ONXx     
+\t      ONXx   kXNk                 0N0    ONXx     
+\t      ONXx   kXXk                 0N0   kKNXx     
+\t      ONXx   kXXk                 0NKk0KXNWXx     
+\t      ONXx   kXN0x               kXWNXK0O0NXx     
+\t      ONXx   kXWNXKOx        xk0KXXKOk   ONXx     
+\t      ONXk   kXN0OKXXK0kxxxO0XXX0kx      0NXx    
+\t      kKNXKOkOXXk  xk0XXXXXXKOk      xk0KXX0x     
+\t        xO0XXNWNO      kOOkx      xOKXXK0kx       
+\t           xk0XNXKOx          xk0KXXKOk           
+\t               xOKXXK0kx   xO0XXX0kx              
+\t                  xk0KXXKKKXXKOk                  
+\t                      kOKK0Ox        The Order 
+\033[0m

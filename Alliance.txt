@@ -1,0 +1,25 @@
+\033[1;32m
+\t                       xxxx                       
+\t                 kO0KXXNNNXXXK0Ox                 
+\t              x0XNNXK00OOOO0KXNNNKOx              
+\t            x0NWX0kx          xO0NWXO             
+\t           kXWNOx                x0NNKx           
+\t          kXWXk                    ONWKx          
+\t         xKWNOkkOOOOkx     xkkOOOOkk0WN0          
+\t         kXWKKNNNNNNNK0O0KXNNNNNNNNK0XWKx         
+\t       kO0XWKkkkxxxk0XNNNXXXKOkxxxkkkXWX0Ox       
+\t     xKNX0KWKx    xKNNKOxxkKNXk     kNWKKNXO      
+\t    kXWXOxONW0   kXWNO     xKNN0   xKWXkx0NW0x    
+\t   xXWXk   0NN0xxKWXk        0WNO kKWNO   0NN0    
+\t   0WNO     OXN00NN0         xXWXOXNKk    xKWXk   
+\t   KWXx      xOOKWXOxxxx  xxkkKWN0OOx      0WNO   
+\t   KWXx         0WN0KNNXXXXNNKXWNk         0WNO   
+\t   ONNO         ONWKkkOOOOOOkONWKx        xKWKx   
+\t   xKWXk        xKWNO       xKWNO        xKWNO    
+\t    xKNXOx       xKNN0x    OXWNO        kXWNO     
+\t     xOXNXOx       OXX0kO0KNNKk      xOKNNKk      
+\t       xOKNNX0OOkkkO0XXNNNNXK0OOOO0KXNNX0k        
+\t          kO0KXNNNNNXXK0kkk0KXNNNNXXK0kx          
+\t               xxxxxx         xxxxxx                
+\t                                       The Alliance        
+\033[0m                                          
