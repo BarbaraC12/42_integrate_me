@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 23:34:02 by jodufour          #+#    #+#             */
-/*   Updated: 2022/11/06 18:41:15 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/11/08 10:08:59 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-void	ft_putchar(char const c);
+size_t	ft_putchar(char const c);
 
 int	main(void)
 {
 	char	c;
 	char	buff[1];
 	int		fd[2];
+	size_t	ret;
 
 	if (pipe(fd) == -1)
 	{
@@ -40,7 +41,13 @@ int	main(void)
 
 	for (c = CHAR_MIN ; c < CHAR_MAX ; ++c)
 	{
-		ft_putchar(c);
+		ret = ft_putchar(c);
+		if (ret != 1)
+		{
+			close(fd[0]);
+			close(fd[1]);
+			return EXIT_FAILURE;
+		}
 		if (read(fd[0], buff, 1LU) == -1)
 		{
 			perror("read");
