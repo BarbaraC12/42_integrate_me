@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 TEST_NAMES='
 strlen
@@ -60,6 +60,7 @@ unit_test() {
 	local running_logs_file="$LOG_DIR/test_ft_$1.running.log"
 	local padded_title='  %-19s: '
 	local sleep_time=1
+	local score=0
 
 	printf "$FG_MAGENTA$BOLD"'Testing '"$1$RESET"'\n'
 	/bin/sleep $sleep_time
@@ -75,6 +76,7 @@ unit_test() {
 
 		printf $FG_GREEN'OK'$RESET'\n'
 		rm $compilation_logs_file
+		((score++))
 
 	fi
 
@@ -89,6 +91,7 @@ unit_test() {
 
 		printf $FG_GREEN'OK'$RESET'\n'
 		rm $linkage_logs_file
+		((score++))
 
 	fi
 
@@ -103,6 +106,7 @@ unit_test() {
 
 		printf $FG_GREEN'OK'$RESET'\n'
 		rm $forbidden_functions_logs_file
+		((score++))
 
 	fi
 
@@ -117,15 +121,30 @@ unit_test() {
 
 		printf $FG_GREEN'OK'$RESET'\n'
 		rm $running_logs_file
+		((score++))
 
 	fi
 
 	printf '\n'
+	if [ $score -eq 4 ]; then
+
+		return 0
+	
+	else 
+	
+		return 1
+
+	fi
 }
+
+# Beginning of the script
+bash pimp.sh
 
 # Create directories that may not exist yet
 mkdir -p $OBJ_DIR $LOG_DIR $EXECUTABLE_DIR
-bash pimp.sh
+
+ret=0
+
 # Check if some arguments have been sent
 if [ $# -ne 0 ]; then
 
@@ -137,7 +156,21 @@ if [ $# -ne 0 ]; then
 			if [ "$NAME" = "$1" ]; then
 
 				unit_test $NAME
+				ret=$?
+				# Check if all tests have been passed
+				if [ $ret -eq 0 ]; then
+
+					printf $FG_GREEN$BOLD'All tests passed!'"$RESET$BOLD"' Well done!'"$RESET$BOLD"' You can now submit your work.'"$RESET$BOLD"'\n\n'"$RESET"
+					echo $ret
+
+				else
+
+					printf $FG_RED$BOLD'Not all tests passed!'"$RESET$BOLD"' You should check your work.'"$RESET$BOLD"'\n\n'"$RESET"
+
+				fi
+
 				break
+
 			fi
 
 		done
@@ -152,7 +185,23 @@ else
 	for NAME in $TEST_NAMES ; do
 
 		unit_test $NAME
+		ret+=$?
 
 	done
+
+	# Check if all tests have been passed
+	if [ $ret -eq 0 ]; then
+
+			printf $FG_GREEN$BOLD'All tests passed!'"$RESET$BOLD"' Well done!'"$RESET$BOLD"' You can now submit your work.'"$RESET$BOLD"'\n\n'"$RESET"
+			echo $ret
+
+	else
+
+			printf $FG_RED$BOLD'Not all tests passed!'"$RESET$BOLD"' You should check your work.'"$RESET$BOLD"'\n\n'"$RESET"
+			ret=1
+
+	fi
 	
 fi
+
+exit $ret
