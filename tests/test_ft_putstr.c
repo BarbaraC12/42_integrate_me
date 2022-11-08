@@ -6,7 +6,7 @@
 /*   By: jodufour <jodufour@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 00:58:02 by jodufour          #+#    #+#             */
-/*   Updated: 2022/11/06 20:44:49 by jodufour         ###   ########.fr       */
+/*   Updated: 2022/11/08 10:19:37 by aweaver          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,18 @@
 #include <string.h>
 #include <unistd.h>
 
-void	ft_putstr(char const *str);
+size_t	ft_putstr(char const *str);
 
 static int	__test_one(char const *const str, int const *const fd)
 {
 	size_t const	len = strlen(str);
 	char			*buff;
 	ssize_t			rd;
+	size_t			ret;
 
-	ft_putstr(str);
+	ret = ft_putstr(str);
+	if (ret != len)
+		return EXIT_FAILURE;
 	buff = malloc((len + 1) * sizeof(char));
 	if (!buff)
 	{
