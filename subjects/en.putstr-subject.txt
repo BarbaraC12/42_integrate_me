@@ -1,0 +1,25 @@
+################################################################################
+#                       Welcome to relay-code project:                         #
+#               You will be asked to code several functions.                   #
+#               Your function MUST be coded at the 42 norm.                    #
+#                           You will queue in line.                            #
+#               You are only allowed to press ONE key each                     #
+#       You must be maximum two in front of the computer at the same time      #
+#                       The arrow keys are not allowed.                        #
+#                           Only vim is allowed.                               #
+################################################################################
+
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that displays a string on the standard output and returns the
+number of characters printed as a size_t.
+
+Your function must be declared as follows:
+
+size_t	ft_putstr(char *str);
+
+If you think you are done with the subject, you may press \t
+(yes you need to be 2) to try it.
