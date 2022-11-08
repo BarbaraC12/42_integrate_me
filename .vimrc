@@ -36,6 +36,8 @@ highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 " Remap F1 to update header
 nn <F1> :Stdheader<CR>
 
+nn <Leader>t :!git add -u && git commit -m "yes"<CR>
+
 " Enable or disable mouse
 set mouse=""
 
