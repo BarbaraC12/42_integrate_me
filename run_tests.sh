@@ -158,12 +158,7 @@ if [ $# -ne 0 ]; then
 				unit_test $NAME
 				ret=$?
 				# Check if all tests have been passed
-				if [ $ret -eq 0 ]; then
-
-					printf $FG_GREEN$BOLD'All tests passed!'"$RESET$BOLD"' Well done!'"$RESET$BOLD"' You can now submit your work.'"$RESET$BOLD"'\n\n'"$RESET"
-					echo $ret
-
-				else
+				if [ $ret -ne 4 ]; then
 
 					printf $FG_RED$BOLD'Not all tests passed!'"$RESET$BOLD"' You should check your work.'"$RESET$BOLD"'\n\n'"$RESET"
 
@@ -190,12 +185,7 @@ else
 	done
 
 	# Check if all tests have been passed
-	if [ $ret -eq 0 ]; then
-
-			printf $FG_GREEN$BOLD'All tests passed!'"$RESET$BOLD"' Well done!'"$RESET$BOLD"' You can now submit your work.'"$RESET$BOLD"'\n\n'"$RESET"
-			echo $ret
-
-	else
+	if [ $ret -ne 0 ]; then
 
 			printf $FG_RED$BOLD'Not all tests passed!'"$RESET$BOLD"' You should check your work.'"$RESET$BOLD"'\n\n'"$RESET"
 			ret=1
