@@ -1,5 +1,5 @@
 \e[2;49;95m
-\t             ......        ......
+\t             ......        ......            
 \t           odxxkkxdoo    odxxkkxxdo          
 \t        oxOKKK000KKK0xxkO0K000000K0Oxo       
 \t      oxKX0kd     ox0XXXKOdo     dk0X0d      
@@ -18,6 +18,6 @@
 \t      d0X0xo      dx0XXXKOd       okKXko     
 \t       ox0K0OkkkkkO0K0kxOK0OkkkkO0KKOd       
 \t          dxkO000OOxdo  oxkO0000Okxo         
-\t            ********      ********    
-\t                                       The Assembly
+\t            ********      ********           
+\t                                 The Assembly
 \e[m 

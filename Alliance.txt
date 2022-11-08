@@ -1,5 +1,5 @@
 \033[1;32m
-\t                       xxxx                       
+\t                      xxxxxx                      
 \t                 kO0KXXNNNXXXK0Ox                 
 \t              x0XNNXK00OOOO0KXNNNKOx              
 \t            x0NWX0kx          xO0NWXO             
@@ -20,6 +20,6 @@
 \t     xOXNXOx       OXX0kO0KNNKk      xOKNNKk      
 \t       xOKNNX0OOkkkO0XXNNNNXK0OOOO0KXNNX0k        
 \t          kO0KXNNNNNXXK0kkk0KXNNNNXXK0kx          
-\t               xxxxxx         xxxxxx                
-\t                                       The Alliance        
-\033[0m                                          
+\t               xxxxxx         xxxxxx               
+\t                                       The Alliance
+\033[0m

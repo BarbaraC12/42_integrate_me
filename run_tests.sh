@@ -138,7 +138,7 @@ unit_test() {
 }
 
 # Beginning of the script
-bash pimp.sh
+# printf '%b\n' "$(cat pimp.txt)"
 
 # Create directories that may not exist yet
 mkdir -p $OBJ_DIR $LOG_DIR $EXECUTABLE_DIR

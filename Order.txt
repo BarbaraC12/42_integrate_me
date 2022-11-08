@@ -1,4 +1,4 @@
-\033[1;33m                                                  
+\033[1;33m
 \t                       xxkx                       
 \t                    xO0KXXXKOkx                   
 \t                 kOKXXKOkkk0KXX0Ox                
@@ -20,5 +20,5 @@
 \t           xk0XNXKOx          xk0KXXKOk           
 \t               xOKXXK0kx   xO0XXX0kx              
 \t                  xk0KXXKKKXXKOk                  
-\t                      kOKK0Ox        The Order 
+\t                      kOKK0Ox          The Order 
 \033[0m

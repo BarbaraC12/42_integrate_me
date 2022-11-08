@@ -1,0 +1,23 @@
+\033[1;34m
+\t                     xX0ll0Xx                      
+\t                 odkOO0KKKK0OOkdol                
+\t              lxOKXK          KXX0ko              
+\t   lxOOOOOOOOO0KKKK0OOOOOOOOOOO0KKNXOdxOOOOOOdl   
+\t    dKWW   KKK000000000000000000OxxONX0   WW0o    
+\t     o0N1 kX0o                      lxXN KNOo     
+\t      lk0KWXd                        dOOXNkl      
+\t       ldXWkl                        lkNXxl       
+\t        xNXOko                      oONKkd        
+\t        kNK0NKo                    o0NKOKk        
+\t        dXNk NKd                  dXNO XNx        
+\t        l0W0  NXxl              lxXNk  W0o         
+\t         oKN0  XNkl            lONXx  WKd         
+\t          o0NK  KNOo          o0NKx  W0o          
+\t           lxKNK KN0o        oOK00 NXkl           
+\t             lx0K00NKdodddddxOKXNX0xo             
+\t                oddkNXO0XXXXXX0Oxol               
+\t                   lxXNO   OX0dx                  
+\t                     dKNN NXxl                    
+\t                      o0WWKd                      
+\t                       odxo         The Federation
+\033[0m
